@@ -1,0 +1,26 @@
+{
+  "name": "deco.agency",
+  "author": "deco.agency",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-concat": "latest",
+    "gulp-file-include": "latest",
+    "gulp-iconfont": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-livereload": "latest",
+    "gulp-rename": "latest",
+    "gulp-sass": "^3.2.1",
+    "gulp-stylus": "latest",
+    "gulp-uglify": "latest",
+    "gulp-watch": "latest",
+    "gulp-webserver": "latest",
+    "ttf2woff2": "latest"
+  },
+  "dependencies": {
+    "gulp-pug": "^4.0.1",
+    "pug": "^2.0.3"
+  }
+}

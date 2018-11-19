@@ -1,0 +1,41 @@
+@import "vars"
+@import "mixins"
+@import "fonts"
+@import "reset"
+@import "icons"
+@import "typography"
+
+*,
+*:before,
+*:after
+	box-sizing: border-box
+	outline: none
+	-webkit-font-smoothing: antialiased
+	font-smoothing: antialiased
+
+html, body
+	display: flex
+
+body
+	font:
+		family: $fontMain
+		size: 14px
+		weight: normal
+	line-height: normal
+	background-color: $white-smoke
+	min-width: 320px
+	min-height: 100vh
+	width: 100%
+	position: relative
+	flex-direction: column
+
+a
+	color: inherit
+	text-decoration: none
+
+
+@import "animations"
+@import "btns"
+@import "grid"
+@import "toggler-style"
+@import "home"
